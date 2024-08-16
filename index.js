@@ -12,8 +12,7 @@ const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
 mongoose.connect(`mongodb+srv://${username}:${password}@registrationform.ijfc2.mongodb.net/registrationFormDB`, {
-    useNewUrlParser : true,
-    useUnifiedTopology : true
+    
 });
 
 // registration schema
